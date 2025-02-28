@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+
+.nextLevel {
+    background-image: linear-gradient(to right, #f58634,#ffffff, #a1368f);
+    background-clip: text;
+    color: transparent;
+}

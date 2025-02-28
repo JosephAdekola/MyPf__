@@ -1,0 +1,9 @@
+[
+    {"id": 1, "menu": "Services", "specialText": false},
+    {"id": 2, "menu": "Works", "specialText": false},
+    {"id": 3, "menu": "Resume", "specialText": false},
+    {"id": 4, "menu": "Skills", "specialText": false},
+    {"id": 5, "menu": "Testimonials", "specialText": false},
+    {"id": 6, "menu": "Contact", "specialText": false},
+    {"id": 7, "menu": "Hire Me!", "specialText": true}
+]
