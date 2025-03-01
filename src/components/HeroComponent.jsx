@@ -35,8 +35,9 @@ export default function HeroComponent() {
                             </p>
                         </div>
 
-                        <div className="buttonsAndIcons text-[#f58634] w-fit flex flex-col sm:flex-row gap-5">
-                            <button className=' border px-5 py-3 rounded-full '>
+                        <div className="buttonsAndIcons text-[#f58634] w-full">
+                            <div className=' w-fit mx-auto md:mx-px flex flex-col sm:flex-row gap-5 '>
+                            <button className=' border px-5 py-3 rounded-full mx-auto '>
                                 Download My CV
                                 <i className=' pi pi-download ml-3 '></i>
                             </button>
@@ -44,6 +45,7 @@ export default function HeroComponent() {
                                 <i className=' pi pi-instagram border p-4 rounded-full h-fit '></i>
                                 <i className=' pi pi-linkedin border p-4 rounded-full h-fit'></i>
                                 <i className=' pi pi-github border p-4 rounded-full h-fit '></i>
+                            </div>
                             </div>
                         </div>
                     </div>
