@@ -5,10 +5,12 @@ import qualities from '../assets/utils/headerUtils/qualities.json'
 export default function HeroComponent() {
 
     const [reotate, setRotate] = useState(true)
+    const [heroBorder, setHeroBorder] = useState('#a1368f')
 
     return (
         <div className="heroMainSection w-full py-4 overflow-hidden ">
-            <div className="heroInnerSection max-w-[1400px] h-[100%] my-5 mx-auto px-2 sm:px-5 relative ">
+            <div className="heroInnerSection max-w-[1400px] h-[100%] my-5 mx-auto px-2 
+                    sm:px-5 pt-10 relative ">                
                 <div className=' md:w-[50%]  '>
                     <div className="contentBox flex flex-col gap-10 md:pr-15">
                         <div className=' headers '>
@@ -20,10 +22,14 @@ export default function HeroComponent() {
                             </h2>
                         </div>
 
-                        <div className= {`imagesContainer w-full h-full flex ${reotate && ('rotate-5')} md:absolute transition-all duration-500 ease-in-out`}>
-                            <div className=' w-[300px] h-[350px] lg:w-[350px] lg:h-[400px] rounded-4xl border-2 border-[#a1368f] overflow-hidden mx-auto md:absolute md:right-[100px] lg:right-[200px]  '
-                                onMouseEnter={()=> setRotate(false)}
-                                onMouseLeave={()=> setRotate(true)}>
+                        <div className= {`imagesContainer w-full h-full flex 
+                                ${reotate && ('rotate-5')} md:absolute transition-all duration-200 ease-in-out`}>
+                            <div className= {`w-[300px] h-[350px] lg:w-[350px] lg:h-[400px] 
+                                    rounded-4xl border-2  overflow-hidden mx-auto md:absolute 
+                                    md:right-[100px] lg:right-[200px]`}
+                                onMouseEnter={()=> {setRotate(false); setHeroBorder('#f58634')}}
+                                onMouseLeave={()=> {setRotate(true); setHeroBorder('#a1368f')}}
+                                style={{borderColor: `${heroBorder}`}}>
                                 <img src={myHeadShot} alt="myHeadShot"
                                     className='w-full h-full object-cover ' />
                             </div>
@@ -50,13 +56,17 @@ export default function HeroComponent() {
                         </div>
                     </div>
                 </div>
-                    <div className="qualities grid grid-cols-2 gap-5 md:flex lg:justify-between text-white py-10 lg:py-20">
+                    <div className="qualities grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 
+                            gap-5  text-white py-10 lg:pt-50">
                         {
                             qualities.map((qua, index) => {
                                 return (
                                     <div key={index}
-                                        className=' text-center px-10 flex flex-col sm:flex-row gap-4 '>
-                                        <h3 className=' text-5xl lg:text-7xl font-bold '>{qua.number}</h3>
+                                        className=' text-center px-10 flex flex-col 
+                                                sm:flex-row gap-4 '>
+                                        <h3 className=' text-5xl lg:text-7xl font-bold '>
+                                            {qua.number}
+                                        </h3>
                                         <p className=' my-auto '>{qua.text}</p>
                                     </div>
                                 )
