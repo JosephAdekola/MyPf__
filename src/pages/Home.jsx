@@ -3,7 +3,7 @@ import HeaderAndDescription from '../components/HeaderAndDescription'
 import StylishList from '../components/StylishList'
 import services from '../assets/utils/servicesUtils/services.json'
 import RecentWorks from '../components/RecentWorks'
-import recentWorksData from '../assets/utils/recentWorkUtils/recentWorksProvider'
+import recentWorksData from '../assets/utils/recentWorkUtils/recentWorksData'
 
 export default function Home() {
 
