@@ -1,0 +1,14 @@
+{
+    "experiece":[
+        {"id":1, "timelap":"2024 - present", "role": "platform support engineer", "organisation": "RushRush NG", "location": "Nigeria"},
+        {"id":2, "timelap":"2024 - present", "role": "platform support engineer", "organisation": "RushRush NG", "location": "Nigeria"},
+        {"id":3, "timelap":"2024 - present", "role": "platform support engineer", "organisation": "RushRush NG", "location": "Nigeria"},
+        {"id":4, "timelap":"2024 - present", "role": "platform support engineer", "organisation": "RushRush NG", "location": "Nigeria"}
+    ],
+    "education":[
+        {"id":1, "timelap":"2024 - 2024", "stydy": "platform support engineer", "school": "RushRush NG", "location": "Nigeria"},
+        {"id":1, "timelap":"2024 - 2024", "stydy": "platform support engineer", "school": "RushRush NG", "location": "Nigeria"},
+        {"id":1, "timelap":"2024 - 2024", "stydy": "platform support engineer", "school": "RushRush NG", "location": "Nigeria"},
+        {"id":1, "timelap":"2024 - 2024", "stydy": "platform support engineer", "school": "RushRush NG", "location": "Nigeria"}
+    ]
+}
