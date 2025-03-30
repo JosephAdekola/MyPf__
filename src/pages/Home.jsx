@@ -9,6 +9,7 @@ import SubHeadHeaderBriefDesc from '../components/SubHeadHeaderBriefDesc'
 import studyAndExp from '../assets/utils/experienceAndEducationUtils/experience.json'
 import Skills from '../components/Skills'
 import SkillsData from '../assets/utils/skillsUtils/SkillsData'
+import Testimonials from '../components/Testimonials'
 
 
 export default function Home() {
@@ -85,22 +86,28 @@ export default function Home() {
 
 
       <div className=' MySkillsSection w-full bg-[#4e2946] px-2 sm:px-5' >
-          <div className=' max-w-[1400px] h-full mx-auto py-10 sm:py-20 lg:py-30
+        <div className=' max-w-[1400px] h-full mx-auto py-10 sm:py-20 lg:py-30
                 flex flex-col gap-7 ' >
-              <div>
-                <HeaderAndDescription header={'my skills'} 
-                  desc={'We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.'} />
-              </div>
-
-              <div>
-                <Skills arr={SkillsData} />
-              </div>
+          <div>
+            <HeaderAndDescription header={'my skills'}
+              desc={'We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.'}
+              paraAlign={"center"}
+              paraMargin={"auto"} />
           </div>
+
+          <div>
+            <Skills arr={SkillsData} />
+          </div>
+        </div>
       </div>
 
-
-      <div className=' MySkillsSection w-full bg-[#4e2946] px-2 sm:px-5'>
-
+      <div className=' testimonialsSection w-full bg-[#4e2946] px-2 sm:px-5'>
+        <div className=' max-w-[1400px] h-full mx-auto py-10 sm:py-20 lg:py-30
+                flex flex-col gap-7 '>
+          <div>
+            <Testimonials />
+          </div>
+        </div>
       </div>
     </div>
   )
