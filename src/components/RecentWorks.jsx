@@ -31,8 +31,10 @@ export default function RecentWorks({ work = [] }) {
                                     <p>{wor.description}</p>
                                 </div>
                                 <div className=' my-auto '>
-                                    <i className={`${wor.arrow} text-3xl transition-all duration-500 ease-in-out `}
+                                    <a href={wor.anchor} target='_blank'>
+                                        <i className={`${wor.arrow} text-3xl transition-all duration-500 ease-in-out `}
                                         style={{ transform: `rotate(-${isHovered ? 0 : 180}deg)` }}></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>

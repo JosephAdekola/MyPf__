@@ -1,7 +1,12 @@
 [
-    {"num":"01", "title": "web development", "description":"a seasoned web developer a seasoned web developer a seasoned web developer a seasoned web developer"},
-    {"num":"02", "title": "web development", "description":"a seasoned web developer"},
-    {"num":"03", "title": "web development", "description":"a seasoned web developer"},
-    {"num":"04", "title": "web development", "description":"a seasoned web developer"},
-    {"num":"05", "title": "web development", "description":"a seasoned web developer"}
+    {"num":"01", "title": "Front-End Development", "description":"I build visually stunning, lightning-fast interfaces that keep users engaged and make your brand unforgettable—on every screen."},
+    {"num":"02", "title": "Back-End Development", "description":"I engineer powerful back-end systems that handle your data securely and deliver seamless functionality—so everything just works."},
+    {"num":"03", "title": "Database Management", "description":"I organize your data into smart, efficient systems that grow with your business and keep performance at its peak."},
+    {"num":"04", "title": "Authentication & Security", "description":"I build trust into every line of code—your platform stays safe, secure, and ready for scale."},
+    {"num":"05", "title": "Deployment & Hosting", "description":"From local dev to live site—I handle deployment so your project launches fast, runs smooth, and stays online."},
+    {"num":"06", "title": "API Integration", "description":"I seamlessly integrate powerful tools into your site to boost user experience and deliver real business value."},
+    {"num":"07", "title": "Performance Optimization", "description":"I fine-tune your website for blazing speed—because every millisecond counts."},
+    {"num":"08", "title": "Mobile Responsiveness", "description":"I don’t just build for the web—I build for the way people browse today."},
+    {"num":"09", "title": "Testing & Debugging", "description":"I deliver quality code you can count on—thoroughly tested and ready to scale."},
+    {"num":"10", "title": "Maintenance & Scaling", "description":"I stick with you beyond launch—ensuring your product evolves, scales, and stays at the top."}
 ]

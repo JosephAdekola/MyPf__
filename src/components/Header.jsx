@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import headerLogo from '../assets/utils/headerUtils/headerLogo.png'
 import menus from '../assets/utils/headerUtils/menus.json'
+import { useNavigate } from 'react-router'
 
 export default function Header() {
+
+    const navigate = useNavigate()
 
     const [inside, setInside] = useState('#a1368f')
     const [outside, setoutside] = useState('#f58634')
@@ -16,12 +19,15 @@ export default function Header() {
         <div className=' w-full h-[100px] relative '>
             <div className=' max-w-[1400px] h-full mx-auto px-2 sm:px-5 flex justify-between '>
                 <div className=' logoAndEmailCol flex gap-5 '>
-                    <div className=' my-auto '>
+                    <div className=' my-auto cursor-pointer '
+                        onClick={()=>navigate("/")}>
                         <img src={headerLogo} alt="" className=' h-[60px] w-[60px] object-cover ' />
                     </div>
                     <div className=' flex '>
                         <p className=' text-lg text-white my-auto font-semibold hidden lg:inline-block '>
-                            adekola.adebayo2@yahoo.com
+                            <a href="mailto:adekola.adebayo2@yahoo.com">
+                                adekola.adebayo2@yahoo.com
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -36,7 +42,7 @@ export default function Header() {
                                 return (
                                     <div key={index}
                                         className=' flex overflow-hidden '>
-                                        <p className={`my-auto font-semibold cursor-pointer mr-20 md:mr-0 ml-6 md:mx-2 lg:mx-5
+                                        <p className={`my-auto font-semibold cursor-pointer mr-20 md:mr-0 ml-6 md:mx-2 lg:mx-5 overflow-hidden
                                                 ${item.specialText && (`px-5 py-2 text-2xl sm:text-lg rounded-full transition-colors `)}
                                                 ${!item.specialText && (`text-lg hidden md:inline-block`)}`}
                                             onMouseEnter={() => { setHovered(index); item.specialText && (inHandler()) }}
@@ -45,7 +51,9 @@ export default function Header() {
                                                 { background: `linear-gradient(to right, ${outside}, ${inside})` } :
                                                 {}
                                             }>
-                                            {item.menu}
+                                            <a href={`#${item.anchor}`}>
+                                                {item.menu}
+                                            </a>
                                             <hr className={`bg-gradient-to-r from-[#f58634] to-[#a1368f]
                                                 ${item.specialText && ('hidden')} -translate-x-[160%]
                                                 ${isHovered && (`translate-x-0`)}
@@ -80,7 +88,10 @@ export default function Header() {
                                     <li key={index}
                                         className={`${respmen.specialText && ('hidden')}
                                         text-3xl font-semibold px-5 cursor-pointer`}>
-                                        {respmen.menu}
+                                        <a href={`#${respmen.anchor}`}
+                                            onClick={() => setRespMenuStatw(false)}>
+                                            {respmen.menu}
+                                        </a>
                                     </li>
                                 )
                             })

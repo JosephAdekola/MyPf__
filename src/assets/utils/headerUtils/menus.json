@@ -1,9 +1,9 @@
 [
-    {"id": 1, "menu": "Services", "specialText": false},
-    {"id": 2, "menu": "Works", "specialText": false},
-    {"id": 3, "menu": "Resume", "specialText": false},
-    {"id": 4, "menu": "Skills", "specialText": false},
-    {"id": 5, "menu": "Testimonials", "specialText": false},
-    {"id": 6, "menu": "Contact", "specialText": false},
-    {"id": 7, "menu": "Hire Me!", "specialText": true}
+    {"id": 1, "menu": "Services", "specialText": false, "anchor": "services"},
+    {"id": 2, "menu": "Works", "specialText": false, "anchor": "works"}, 
+    {"id": 3, "menu": "Resume", "specialText": false, "anchor": "resume"},
+    {"id": 4, "menu": "Skills", "specialText": false, "anchor": "skills"},
+    {"id": 5, "menu": "Testimonials", "specialText": false, "anchor": "testimonials"},
+    {"id": 6, "menu": "Contact", "specialText": false, "anchor": "contact"},
+    {"id": 7, "menu": "Hire Me!", "specialText": true, "anchor": "contact"}
 ]

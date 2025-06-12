@@ -16,12 +16,12 @@ export default function StylishList({ arr = [], arrow }) {
                         <li key={index}
                             onMouseEnter={() => { setBgState(index); stTranslateValue(index) }}
                             onMouseLeave={() => setBgState(null)}
-                            className=' cursor-pointer w-full h-fit border-[#44163c] border-b-[1px] m-0 relative py-3 '>
+                            className=' cursor-auto w-full h-fit border-[#44163c] border-b-[1px] m-0 relative py-3 '>
 
                             <div className={`${index !== 0 && ('hidden')} w-full h-full
                                     bg-linear-to-r from-[#a1368f] via-[#a1368f] 
                                     absolute top-0 transition-all duration-500 ease-in-out `}
-                                style={{ transform: `translateY(${(translateValue * 100) + translateValue}%)` }}>
+                                style={{ transform: `translateY(${(translateValue * 100) + 4}%)` }}>
                             </div>
 
                             <div className={`w-full h-[150px] sm:h-[100px]  sm:flex text-white px-5  relative

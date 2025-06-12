@@ -1,0 +1,7 @@
+{
+    "info": [
+        {"id": 1, "icon":"pi pi-phone", "title": "phone", "value": "+2348139369149"},
+        {"id": 2, "icon":"pi pi-envelope", "title": "email", "value": "adekola.adebayo2@yahoo.com"},
+        {"id": 3, "icon":"pi pi-map-marker", "title": "address", "value": "Ibadan, Oyo State, Nigeria."}
+    ]
+}
