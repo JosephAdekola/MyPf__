@@ -1,0 +1,50 @@
+.icon-header-container {
+  display: flex;
+  gap: 1.25rem; /* gap-5 */
+  padding-left: 0.5rem;  /* px-2 */
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .icon-header-container {
+    padding-left: 1.25rem; /* sm:px-5 */
+    padding-right: 1.25rem;
+  }
+}
+
+.icon-style {
+  height: fit-content;
+  align-self: center;
+  font-size: 1.5rem; /* text-2xl */
+  color: #a1368f;
+}
+
+@media (min-width: 640px) {
+  .icon-style {
+    font-size: 1.875rem; /* sm:text-3xl */
+  }
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, #a1368f, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.875rem; /* text-3xl default */
+
+  /* Responsive font sizes */
+}
+
+@media (min-width: 768px) {
+  .gradient-text {
+    font-size: 2.25rem; /* md:text-4xl */
+  }
+}
+
+@media (min-width: 1024px) {
+  .gradient-text {
+    font-size: 3rem; /* lg:text-5xl */
+  }
+}

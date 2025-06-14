@@ -41,7 +41,7 @@ export default function Home() {
       </div>
 
 
-      <div className="recentworksection w-full bg-radial from-[#9b5524] via-[#4e2946] to-[#4e2946]">
+      <div className="recentworksection w-full ">
         <div className=' max-w-[1400px] h-full mx-auto py-10 sm:py-20 lg:py-30 flex flex-col gap-10 '
               id='works'>
           <div>
@@ -97,9 +97,9 @@ export default function Home() {
       </div>
 
 
-      <div className=' MySkillsSection w-full bg-[#4e2946] px-2 sm:px-5'
+      <div className=' MySkillsSection w-full bg-[#4e2946] px-2 sm:px-5 '
             id='skills' >
-        <div className=' max-w-[1400px] h-full mx-auto py-10 sm:py-20 lg:py-30
+        <div className=' max-w-[1400px] h-full mx-auto py-10 sm:py-20 
                 flex flex-col gap-7 ' >
           <div>
             <HeaderAndDescription header={'My Skillset'}
@@ -108,7 +108,7 @@ export default function Home() {
               paraMargin={"auto"} />
           </div>
 
-          <div>
+          <div className='  '>
             <Skills arr={SkillsData} />
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function Home() {
 
       <div className=' testimonialsSection w-full bg-[#4e2946] px-2 sm:px-5'
           id='testimonials'>
-        <div className=' max-w-[1400px] h-full mx-auto py-10 sm:py-20 lg:py-30
+        <div className=' max-w-[1400px] h-full mx-auto py-10 sm:py-20 
                 flex flex-col gap-7 '>
           <div>
             <Testimonials />

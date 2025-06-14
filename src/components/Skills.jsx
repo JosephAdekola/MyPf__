@@ -13,8 +13,8 @@ export default function Skills({arr=[]}) {
                         <div key={index}
                             onMouseEnter={()=>setHovered(index)}
                             onMouseLeave={()=>setHovered(null)}>
-                            <div className={`${isHovered ? 'bg-[#a1368f67]' : 'bg-[#3d2638f3]'} ${isHovered && ('border-3 border-[#a1368f]')} rounded-2xl px-5 py-5 flex flex-col gap-0
-                                    transition-all duration-300 ease-in-out`}>
+                            <div className={`${isHovered ? 'bg-[#a1368f67]' : 'bg-[#3d2638f3]'} ${isHovered && ('border-3 border-[#a1368f]')} 
+                                    rounded-2xl px-5 py-5 flex flex-col gap-0 transition-all duration-300 ease-in-out`}>
                                 <div className={`mx-auto w-[100px] h-[100px] `}>
                                 <img src={data.Image} alt={data.name} 
                                     className={`${isHovered ? 'grayscale-0' : 'grayscale-70'}

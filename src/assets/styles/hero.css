@@ -1,0 +1,36 @@
+/* hero.css */
+.imagesContainer {
+  transition: all 0.2s ease-in-out;
+}
+
+.rotateEffect {
+  transform: rotate(5deg);
+}
+
+.heroImage {
+  width: 300px;
+  height: 350px;
+  border: 2px solid;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* Larger sizes for lg screens */
+@media (min-width: 1024px) {
+  .heroImage {
+    width: 350px;
+    height: 400px;
+    right: 200px;
+  }
+}
+
+/* Right positioning for md screens */
+@media (min-width: 768px) {
+  .heroImage {
+    position: absolute;
+    right: 100px;
+  }
+}

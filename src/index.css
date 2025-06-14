@@ -1,4 +1,8 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 .nextLevel {
     background-image: linear-gradient(to right, #f58634,#ffffff, #a1368f);
@@ -9,4 +13,8 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+.recentworksection {
+  background-image: linear-gradient(to top right, #9b5524, #4e2946, #4e2946);
 }

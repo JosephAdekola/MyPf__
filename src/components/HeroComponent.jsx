@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import myHeadShot from '../assets/myHeadShot.jpeg'
 import qualities from '../assets/utils/headerUtils/qualities.json'
+import "../assets/styles/hero.css"
 
 export default function HeroComponent() {
 
@@ -21,8 +22,8 @@ export default function HeroComponent() {
                                 Full-Stack Developer.
                             </h2>
                         </div>
-
-                        <div className={`imagesContainer w-full h-full flex
+                        {/* works for latest version of tailwind */}
+                        {/* <div className={`imagesContainer w-full h-full flex
                                 ${reotate && ('rotate-5')} md:absolute transition-all duration-200 ease-in-out`}>
                             <div className={`w-[300px] h-[350px] lg:w-[350px] lg:h-[400px] 
                                     rounded-4xl border-2  overflow-hidden mx-auto md:absolute 
@@ -33,7 +34,18 @@ export default function HeroComponent() {
                                 <img src={myHeadShot} alt="myHeadShot"
                                     className='w-full h-full object-cover ' />
                             </div>
-                        </div>
+                        </div> */}
+
+                        <div className={`imagesContainer w-full h-full flex 
+        ${reotate ? 'rotateEffect' : ''} md:absolute transition-all duration-200 ease-in-out`}>
+    <div className="heroImage"
+        onMouseEnter={() => { setRotate(false); setHeroBorder('#f58634') }}
+        onMouseLeave={() => { setRotate(true); setHeroBorder('#a1368f') }}
+        style={{ borderColor: heroBorder }}>
+        <img src={myHeadShot} alt="myHeadShot" className="w-full h-full object-cover" />
+    </div>
+</div>
+
 
                         <div className="aboutMe text-xl lg:text-3xl text-white text-center md:text-left">
                             <p>
@@ -61,7 +73,7 @@ export default function HeroComponent() {
                     </div>
                 </div>
                 <div className="qualities grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 
-                            gap-5  text-white py-10 lg:pt-50">
+                            gap-5  text-white py-10 lg:pt-50 sm:pt-[120px] ">
                     {
                         qualities.map((qua, index) => {
                             return (
