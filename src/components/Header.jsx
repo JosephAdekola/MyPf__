@@ -114,7 +114,7 @@ export default function Header() {
                 <div className="email-text">
                     <p>
                         <a href="mailto:adekola.adebayo2@yahoo.com">
-                            adekola.adebayo2@yahoo.com
+                            info@josephadekola.com
                         </a>
                     </p>
                 </div>
