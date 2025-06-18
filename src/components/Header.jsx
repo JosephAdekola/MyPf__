@@ -107,7 +107,9 @@ export default function Header() {
         <div className="header-wrapper">
             <div className="logo-email-col">
                 <div className="logo" onClick={() => navigate("/")}>
-                    <img src={headerLogo} alt="" className="logo-img" />
+                    <a href="#headerPanel">
+                        <img src={headerLogo} alt="" className="logo-img" />
+                    </a>
                 </div>
                 <div className="email-text">
                     <p>

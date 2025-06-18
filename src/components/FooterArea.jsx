@@ -24,7 +24,9 @@ function FooterArea() {
       <div className="max-w-[1400px] mx-auto px-2 sm:px-5 flex flex-col gap-5">
         {/* Logo */}
         <div className="flex justify-center">
-          <img src={headerLogo} alt="Logo" className="h-[60px] w-[60px] object-cover" />
+          <a href="#headerPanel">
+            <img src={headerLogo} alt="Logo" className="h-[60px] w-[60px] object-cover" />
+          </a>
         </div>
 
         {/* Menu Items */}
