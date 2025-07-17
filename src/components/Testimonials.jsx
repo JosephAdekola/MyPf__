@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import HeaderAndDescription from './HeaderAndDescription'
-import TestimonyCard from './TestimonyCard'
+import TestimonyCard from "./TestimonyCard"
 import testimonialData from '../assets/utils/testimonialUtils/testimoialData'
 
 export default function Testimonials() {
@@ -35,7 +35,7 @@ export default function Testimonials() {
                     paraAlign={"left"} />
             </div>
 
-            <div className=' sm:hidden py-5 '>
+            <div className=' sm:hidden md:block py-5 '>
                 <HeaderAndDescription
                     header={"Hear from my clients"}
                     desc={"Empowering people in new a digital journey with my super services"}
@@ -44,22 +44,20 @@ export default function Testimonials() {
             </div>
 
             {/* Desktop version */}
-            <div className=' hidden lg:flex flex-col gap-5 overflow-hidden '>
+            <div className=' testimonial-desktop '>
                 <div
                     className={`flex transition-all duration-300 ease-in-out`}
                     style={{ transform: `translateX(-${transValue * 100}%)` }}
                     onMouseEnter={() => setHovered(true)}
-                    onMouseLeave={() => setHovered(false)}
-                >
+                    onMouseLeave={() => setHovered(false)}>
                     {groupedTestimonials.map((group, pageIndex) => (
-                        <div key={pageIndex} className="flex min-w-full gap-[2%]">
+                        <div key={pageIndex} className="flex min-w-full gap-3">
                             {group.map((data, index) => (
-                                <div key={index} className="min-w-[49%]">
+                                <div key={index} className="  ">
                                     <TestimonyCard
                                         comLogo={data.logo}
                                         logoalt={`${data.platform} logo`}
                                         comName={data.platform}
-                                        shot={data.image}
                                         desc={data.details}
                                         rep={data.name}
                                         role={data.role}
@@ -84,7 +82,7 @@ export default function Testimonials() {
             </div>
 
             {/* Mobile version */}
-            <div className=' flex lg:hidden flex-col gap-5 overflow-hidden '>
+            <div className=' flex md:hidden flex-col gap-5 overflow-hidden '>
                 <div className={`flex gap-10 transition-all duration-300 ease-in-out px-5 `}
                     style={{ transform: `translateX(-${transValueMobile * 100}%)` }}
                     onMouseEnter={() => setHovered(true)}

@@ -7,6 +7,7 @@ import expressjs from '../../../assets/expressjs.webp'
 import phpLogo from '../../../assets/phpLogo.png'
 import nodeLogo from '../../../assets/nodeLogo.png'
 import mongoDBLogo from '../../../assets/mongoDBLogo.png'
+import nextLogo from '../../../assets/nextjs.png'
 
 const SkillsData = [
     {id: 1, Image:javascripLogo, level:'85%', name:'javaScript'},
@@ -16,7 +17,8 @@ const SkillsData = [
     {id: 5, Image:expressjs, level:'92%', name:'express JS'},
     {id: 6, Image:phpLogo, level:'92%', name:'PHP'},
     {id: 7, Image:nodeLogo, level:'72%', name:'NODE'},
-    {id: 8, Image:mongoDBLogo, level:'80%', name:'mongoDB'}
+    {id: 8, Image:mongoDBLogo, level:'80%', name:'mongoDB'},
+    {id: 9, Image:nextLogo, level:'85%', name:'next.js'}
 ]
 
 export default SkillsData

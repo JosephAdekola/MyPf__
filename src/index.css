@@ -18,3 +18,19 @@ html {
 .recentworksection {
   background-image: linear-gradient(to top right, #9b5524, #4e2946, #4e2946);
 }
+
+
+/* Default mobile-first: hidden on small screens */
+.testimonial-desktop {
+  display: none;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 1.25rem; /* same as Tailwind's gap-5 */
+}
+
+/* Show flex on medium screens and up */
+@media (min-width: 768px) {
+  .testimonial-desktop {
+    display: flex;
+  }
+}
