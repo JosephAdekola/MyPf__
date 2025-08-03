@@ -1,4 +1,11 @@
 /* hero.css */
+.nextLevel {
+    background-image: linear-gradient(to right, #f58634,#ffffff, #a1368f);
+    background-clip: text;
+    color: transparent;   
+    transform: translateX(); 
+}
+
 .imagesContainer {
   transition: all 0.2s ease-in-out;
 }

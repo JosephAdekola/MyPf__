@@ -55,6 +55,7 @@
   .content-wrapper {
     height: 100px;
     display: flex;
+    gap: 20px;
   }
 }
 

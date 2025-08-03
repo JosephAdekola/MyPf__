@@ -59,16 +59,13 @@ export default function StylishList({ arr = [], arrow }) {
                     const isHovered = bgState === index;
 
                     return (
-                        <li
-                            key={index}
+                        <li key={index}
                             onMouseEnter={() => { setBgState(index); stTranslateValue(index); }}
                             onMouseLeave={() => setBgState(null)}
-                            className="service-item"
-                        >
-                            <div
-                                className={`bg-slide ${index !== 0 ? 'hidden' : ''}`}
-                                style={{ transform: `translateY(${(translateValue * 100) + 4}%)` }}
-                            ></div>
+                            className="service-item">
+
+                            <div className={`bg-slide ${index !== 0 ? 'hidden' : ''}`}
+                                style={{ transform: `translateY(${(translateValue * 100) + 4}%)` }}></div>
 
                             <div className="content-wrapper">
                                 <div className="title-section">

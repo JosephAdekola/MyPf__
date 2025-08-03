@@ -38,13 +38,13 @@ export default function HeroComponent() {
 
                         <div className={`imagesContainer w-full h-full flex 
         ${reotate ? 'rotateEffect' : ''} md:absolute transition-all duration-200 ease-in-out`}>
-    <div className="heroImage"
-        onMouseEnter={() => { setRotate(false); setHeroBorder('#f58634') }}
-        onMouseLeave={() => { setRotate(true); setHeroBorder('#a1368f') }}
-        style={{ borderColor: heroBorder }}>
-        <img src={myHeadShot} alt="myHeadShot" className="w-full h-full object-cover" />
-    </div>
-</div>
+                            <div className="heroImage"
+                                onMouseEnter={() => { setRotate(false); setHeroBorder('#f58634') }}
+                                onMouseLeave={() => { setRotate(true); setHeroBorder('#a1368f') }}
+                                style={{ borderColor: heroBorder }}>
+                                <img src={myHeadShot} alt="joseph adekola" className="w-full h-full object-cover" />
+                            </div>
+                        </div>
 
 
                         <div className="aboutMe text-xl lg:text-3xl text-white text-center md:text-left">

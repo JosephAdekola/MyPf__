@@ -1,0 +1,77 @@
+{
+    "salon": {
+        "expectations": [
+        {
+            "id": 1,
+            "title": "mobile-responsive design",
+            "content": "ensures your website looks great on any device"
+        },
+        {
+            "id": 2,
+            "title": "fast loading",
+            "content": "optimized for speed to keep clients engaged"
+        },
+        {
+            "id": 3,
+            "title": "mordern UI/UX",
+            "content": "a sleek and intuitive design that reflects your brand's professionalism"
+        },
+        {
+            "id": 4,
+            "title": "easy to customize",
+            "content": "tailor the template to match your unique style and services"
+        },
+        {
+            "id": 5,
+            "title": "SEO ready",
+            "content": "built with best practice to improve your search engine ranking"
+        },
+        {
+            "id": 6,
+            "title": "appointment system-ready",
+            "content": "integrate your prefered booking system effortlessly"
+        },
+        {
+            "id": 7,
+            "title": "gallery for styles",
+            "content": "showcase your best works with stunning visual gallery"
+        },
+        {
+            "id": 8,
+            "title": "contact form",
+            "content": "make it easy for clients to reach out with enquiries"
+        },
+        {
+            "id": 9,
+            "title": "social media integration",
+            "content": "connect your social profiles to expand your reach"
+        }
+    ],
+    "features": [
+        {
+            "id": 1,
+            "content": "responsive design"
+        },
+        {
+            "id": 2,
+            "content": "fast loading"
+        },
+        {
+            "id": 3,
+            "content": "mordern UI/UX"
+        },
+        {
+            "id": 4,
+            "content": "customizable"
+        },
+        {
+            "id": 5,
+            "content": "SEO ready"
+        },
+        {
+            "id": 6,
+            "content": "appointment system integration"
+        }
+    ]
+    }
+}

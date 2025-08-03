@@ -42,12 +42,7 @@ export default function MainLayout() {
         <div className="sticky top-0 z-50 bg-gradient-to-tr from-[#4e2946] via-[#4e2946] to-[#f58634] animate-slide-down">
           <Header />
         </div>
-      )}
-
-      {/* Hero Section */}
-      <div className="w-full bg-gradient-to-tr from-[#4e2946] via-[#4e2946] to-[#f58634] pt-[100px]">
-        <HeroComponent />
-      </div>
+      )}      
 
       <main>
         <Outlet />
