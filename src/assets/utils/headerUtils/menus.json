@@ -1,5 +1,6 @@
 [
     {"id": 1, "menu": "Services", "specialText": false, "anchor": "services"},
+    {"id": 1, "menu": "Templates", "specialText": false, "anchor": "templates"},
     {"id": 2, "menu": "Works", "specialText": false, "anchor": "works"}, 
     {"id": 3, "menu": "Resume", "specialText": false, "anchor": "resume"},
     {"id": 4, "menu": "Skills", "specialText": false, "anchor": "skills"},

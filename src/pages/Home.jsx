@@ -49,7 +49,7 @@ export default function Home() {
 
       </div>
 
-      <div className=' whatIDoSection w-full bg-[#3d2638f3] '>
+      <div className=' whatIDoSection w-full bg-[#3d2638f3] ' id='templates'>
         <HeaderAndDescription header={`Business-Ready Website Templates`}
           desc={`Starting with a versatile template designed for both barbing salons and hair stylists, 
                     this section will feature purpose-built websites tailored to different types of artisans 

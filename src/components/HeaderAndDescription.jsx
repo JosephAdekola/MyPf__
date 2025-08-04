@@ -14,7 +14,7 @@ export default function HeaderAndDescription({ header, desc, paraAlign, headerWi
     // </div>
 
     <div className="header-container">
-      <h2 className={`header-text ${headerWidth}`}>
+      <h2 className={`header-text ${headerWidth} text-center `}>
         {header}
       </h2>
       <p className={`header-desc text-${paraAlign} mx-${paraMargin}`}>
