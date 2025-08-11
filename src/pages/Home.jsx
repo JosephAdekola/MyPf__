@@ -62,17 +62,17 @@ export default function Home() {
           <div className="grid grid-cols-1 ">
             <div className=" block rounded-xl p-4 hover:shadow-lg transition relative 
                             md:max-w-[70vw] mx-auto ">
-              <img src="/barber-shop.jpg" alt="Salon Template" className="rounded-lg mb-3 blur" />
+              <img src="/barber-shop.jpg" alt="Salon website Template" className="rounded-lg mb-3 blur" />
 
               <div className=' absolute inset-0 flex flex-col gap-2 justify-center items-center '>
-                <h3 className="uppercase text-5xl font-semibold text-white transition">
+                <h3 className="uppercase text-5xl font-black text-[#a1368f] transition">
                   coming soon
                 </h3>
-                <p className="text-sm text-white">
+                <p className="text-sm font-bold text-[#a1368f]">
                   Clean and stylish layout for modern salons.
                 </p>
-                <button className=' border px-3 rounded-full mx-auto text-white uppercase hover:bg-white
-                            hover:text-black transition-all duration-500 ease-in-out '
+                <button className=' border border-[#a1368f] px-3 rounded-full mx-auto text-[#a1368f] uppercase hover:bg-[#a1368f]
+                            hover:text-white transition-all duration-500 ease-in-out '
                         onClick={e => navigate("/saloon-template")}>
                   learn more
                 </button>

@@ -70,9 +70,9 @@ export default function SaloonWebTemplate() {
 
             <div className='hero-section grid md:grid-cols-2 gap-5 max-w-[1400px] my-5 mx-auto'>
                 <div className="block rounded-xl p-4 hover:shadow-lg transition relative mx-auto">
-                    <img src="/barber-shop.jpg" alt="Salon Template" className="rounded-lg mb-3 blur" />
+                    <img src="/barber-shop.jpg" alt="Salon website Template" className="rounded-lg mb-3 blur" />
                     <div className="absolute inset-0 flex justify-center items-center">
-                        <h3 className="uppercase text-5xl font-semibold text-white transition">
+                        <h3 className="uppercase text-5xl font-black text-[#a1368f] transition">
                             coming soon!
                         </h3>
                     </div>

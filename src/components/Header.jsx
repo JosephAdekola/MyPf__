@@ -108,7 +108,7 @@ export default function Header() {
             <div className="logo-email-col">
                 <div className="logo" onClick={() => navigate("/")}>
                     <a href="#headerPanel">
-                        <img src={headerLogo} alt="" className="logo-img" />
+                        <img src={headerLogo} alt="joseph adekola logo" className="logo-img" />
                     </a>
                 </div>
                 <div className="email-text">

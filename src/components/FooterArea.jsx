@@ -25,7 +25,7 @@ function FooterArea() {
         {/* Logo */}
         <div className="flex justify-center">
           <a href="#headerPanel">
-            <img src={headerLogo} alt="Logo" className="h-[60px] w-[60px] object-cover" />
+            <img src={headerLogo} alt="joseph adekola logo" className="h-[60px] w-[60px] object-cover" />
           </a>
         </div>
 
