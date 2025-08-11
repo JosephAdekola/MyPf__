@@ -10,6 +10,7 @@ function MainRouter() {
                 <Route path='/' element={<MainLayout />}>
                     <Route index element={<Home />} />
                     <Route path='saloon-template' element={<SaloonWebTemplate />} />
+                    <Route path='salon-template' element={<SaloonWebTemplate />} />
                 </Route>
         )
     )

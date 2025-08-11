@@ -51,10 +51,10 @@ export default function Home() {
 
       <div className=' whatIDoSection w-full bg-[#3d2638f3] ' id='templates'>
         <HeaderAndDescription header={`Business-Ready Website Templates`}
-          desc={`Starting with a versatile template designed for both barbing salons and hair stylists, 
-                    this section will feature purpose-built websites tailored to different types of artisans 
-                    and small businesses. More templates are on the way each crafted for function, style, 
-                    and ease of use.`}
+          desc={`Starting with a versatile template for salon businesses—barbing, hairstyling, makeup, 
+            nail salons, spas, lash & brow studios, and beauty therapy centers. More purpose-built 
+            websites for artisans and small businesses are on the way, each crafted for style, function, 
+            and ease of use.`}
           paraAlign={"center"}
           paraMargin={"auto"} />
 

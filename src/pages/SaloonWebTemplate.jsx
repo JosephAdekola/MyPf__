@@ -57,16 +57,17 @@ export default function SaloonWebTemplate() {
 
     return (
         <div className='min-w-full min-h-screen bg-gradient-to-tr from-[#4e2946] via-[#4e2946] to-[#f58634] pt-[100px] px-2 md:px-10'>
-            
+
             {/* ✅ Page-specific SEO meta */}
             <Meta
-                title="Salon & Hairstylist Website Template"
-                description="A modern, responsive salon and hairstylist template to showcase your work and attract new clients."
-                keywords="salon template, salon website template, hairstylist website, hairstylist website template, barber template, barber website template, responsive salon design"
-                ogTitle="Salon & Hairstylist Website Template"
-                ogDescription="A modern and responsive template for salons and hairstylists to showcase their work."
+                title="Salon Website Template – Modern & Responsive"
+                description="A sleek, mobile-friendly salon website template for barbers, hairstylists, makeup artists, nail salons, spas, lash & brow studios, and beauty therapy centers."
+                keywords="salon website template, hairstylist website template, barber website template, makeup artist website, nail salon website, spa website template, lash and brow studio website, responsive beauty website"
+                ogTitle="Modern Salon & Beauty Website Template"
+                ogDescription="Showcase your salon, barbershop, spa, or beauty services with this modern, responsive website template."
                 ogImage="/barber-shop.jpg"
             />
+
 
             <div className='hero-section grid md:grid-cols-2 gap-5 max-w-[1400px] my-5 mx-auto'>
                 <div className="block rounded-xl p-4 hover:shadow-lg transition relative mx-auto">
@@ -79,11 +80,10 @@ export default function SaloonWebTemplate() {
                 </div>
                 <div className='flex flex-col justify-center gap-3'>
                     <h1 className='nextLevel text-white text-4xl md:text-5xl lg:text-6xl capitalize font-semibold text-center md:text-left'>
-                        salon & hairstylist website template
+                        salon website template
                     </h1>
                     <p className='text-white text-center md:text-left'>
-                        a mordern and responsive website template designed specifically for salons and hair
-                        stylists to showcase their work and attract new clients.
+                        A sleek, mobile-friendly salon website template for barbers, hairstylists, makeup artists, nail salons, spas, lash & brow studios, and beauty therapy centers.
                     </p>
                     <div className="flex md:hidden">
                         <Button
