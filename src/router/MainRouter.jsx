@@ -3,6 +3,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider, R
 import MainLayout from '../layouts/MainLayout'
 import Home from '../pages/Home'
 import SaloonWebTemplate from '../pages/SaloonWebTemplate'
+import PrivacyPolicy from '../pages/PrivacyPolicy'
 
 function MainRouter() {
     const MyRouter = createBrowserRouter(
@@ -11,6 +12,7 @@ function MainRouter() {
                     <Route index element={<Home />} />
                     <Route path='saloon-template' element={<SaloonWebTemplate />} />
                     <Route path='salon-template' element={<SaloonWebTemplate />} />
+                    <Route path='privacy-policy' element={<PrivacyPolicy />} />
                 </Route>
         )
     )
