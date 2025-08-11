@@ -73,7 +73,7 @@ export default function Home() {
                 </p>
                 <button className=' border border-[#a1368f] px-3 rounded-full mx-auto text-[#a1368f] uppercase hover:bg-[#a1368f]
                             hover:text-white transition-all duration-500 ease-in-out '
-                        onClick={e => navigate("/saloon-template")}>
+                        onClick={e => navigate("/salon-template")}>
                   learn more
                 </button>
               </div>
