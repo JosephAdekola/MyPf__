@@ -13,6 +13,7 @@ import Testimonials from '../components/Testimonials'
 import ContactMe from '../components/ContactMe'
 import { useNavigate } from 'react-router'
 import HeroComponent from '../components/HeroComponent'
+import InstagramPanel from '../components/InstagramPanel'
 
 
 export default function Home() {
@@ -137,6 +138,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+
+      <div>
+        <InstagramPanel />
       </div>
 
 

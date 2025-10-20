@@ -32,7 +32,7 @@ export default function MainLayout() {
       {/* Original Header */}
       <div
         ref={headerRef}
-        className="w-full z-10 absolute"
+        className="w-full z-10 absolute "
         id='headerPanel' >
         <Header />
       </div>
