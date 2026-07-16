@@ -1,6 +1,7 @@
 {
     "experiece":[
-        {"id":1, "timelap":"2024 - present", "role": "platform support engineer", "organisation": "TouchTraffic NG", "location": "Nigeria"}
+        {"id":1, "timelap":"2025 - present", "role": "lead developer", "organisation": "TouchTraffic NG", "location": "Nigeria"},
+        {"id":1, "timelap":"2024 - 2025", "role": "platform support engineer", "organisation": "TouchTraffic NG", "location": "Nigeria"}
     ],
     "education":[
         {"id":1, "timelap":"2024 - 2025", "stydy": "fullstack web dev", "school": "Parach Computers", "location": "Nigeria"}
